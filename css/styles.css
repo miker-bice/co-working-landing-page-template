@@ -1,0 +1,115 @@
+/* variables */
+:root{
+    --primary: #e89f94;
+    --secondary: #524841;
+}
+
+/* reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+li {
+    list-style-type: none;
+}
+
+/* base styles */
+.button{
+    background-color: #fff;
+    padding: 10px 40px;
+    color: var(--secondary);
+    border-radius: 15px;
+    display: inline-block;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+header{
+    background: url(/images/edited-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 98vh;
+}
+.container-fluid {
+    padding: 0 50px;
+}
+
+/* fonts */
+
+/* desktop styles */
+.navigation{
+    box-sizing: border-box;
+    padding: 20px 80px;
+    border-bottom: 4px solid var(--secondary);
+}
+.navbar-brand{
+    grid-column: 1/4;
+}
+.navbar-brand h1{
+    color: #fff;
+    font-weight: 600;
+}
+.nav-links{
+    grid-column: 4/13;
+    align-self: center;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.nav-links a{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#hero-section{
+    margin-top: 60px;
+    padding: 20px 0;
+}
+.hero{
+    align-items: center;
+}
+.hero-text-container{
+    grid-column: 1/6;
+    padding-left: 30px;
+}
+.hero-text-container h2{
+    color: #fff;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.hero-text-container h3{
+    font-weight: 400;
+    font-style: italic;
+    color: var(--secondary);
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+.leading{
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 40px;
+    width: 70%;
+}
+.hero-text-container a{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.hero-image-container {
+    grid-column: 6/13;
+    text-align: center;
+}
+.hero-image-container img{
+    width: 70%;
+}
+.socials {
+    color: var(--secondary);
+}

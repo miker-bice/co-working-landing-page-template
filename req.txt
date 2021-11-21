@@ -1,0 +1,9 @@
+Fonts:
+Cabin Bold
+Cabin Medium
+Cabin Italic
+Cabin Semibold
+
+Colors:
+#e89f94
+#524841
